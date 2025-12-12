@@ -7,8 +7,8 @@ const config = {
     'An open-source, AI-augmented textbook for physical AI and humanoid robotics, leveraging Claude agents for dynamic content generation, personalization, and RAG-driven interactions.',
   
   // ✅ FIXED URL & BASE
-  url: 'https://aihumanoidtextbook.vercel.app',
-  baseUrl: '/',
+  url: "https://areebayaseen15.github.io",
+baseUrl: "/Physical_AI_Robotics-textbook",
   trailingSlash: false,
 
   onBrokenLinks: 'ignore',
@@ -120,3 +120,4 @@ const config = {
 };
 
 export default config;
+
