@@ -8,16 +8,14 @@ const config = {
 
   // ⭐ CORRECT GitHub Pages URL + baseUrl
   url: "https://areebayaseen15.github.io",
-  baseUrl: "/Physical_AI_Robotics-textbook/",
+  baseUrl: "/Physical_AI_Robotics-textbook/",  // MUST end with /
+
   trailingSlash: false,
-
-  onBrokenLinks: 'ignore',
-
   favicon: 'img/favicon.webp',
 
   // ⭐ CORRECT GitHub repo settings
   organizationName: 'areebayaseen15', 
-  projectName: 'Physical_AI_Robotics-textbook', 
+  projectName: 'Physical_AI_Robotics-textbook',
 
   i18n: {
     defaultLocale: 'en',
@@ -46,7 +44,6 @@ const config = {
   ],
 
   themeConfig: ({
-      image: 'img/logo.webp',
       navbar: {
         title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
@@ -67,7 +64,6 @@ const config = {
           },
         ],
       },
-
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
