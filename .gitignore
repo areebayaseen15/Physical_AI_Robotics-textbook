@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Docusaurus build artifacts
+.docusaurus/
+build/
+
+# Environment variables
+.env*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
