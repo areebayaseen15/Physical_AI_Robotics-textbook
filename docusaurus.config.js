@@ -16,8 +16,8 @@ const config = {
   favicon: 'img/favicon.webp',
 
   // ⭐ CORRECT GitHub repo settings
-  organizationName: 'areebayaseen15', 
-  projectName: 'Physical_AI_Robotics-textbook', 
+  organizationName: 'areebayaseen15',
+  projectName: 'Physical_AI_Robotics-textbook',
 
   i18n: {
     defaultLocale: 'en',

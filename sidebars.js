@@ -1,4 +1,3 @@
-
 /**
  * Creating a sidebar enables you to:
  - Create an ordered group of docs
