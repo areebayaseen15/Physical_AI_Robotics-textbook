@@ -4,25 +4,20 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
   tagline:
-    'An open-source, AI-augmented textbook for physical AI and humanoid robotics, leveraging Claude agents for dynamic content generation, personalization, and RAG-driven interactions.',
-  
-  // ✅ FIXED URL & BASE
+    'An open-source, AI-augmented textbook for physical AI and humanoid robotics.',
+
+  // ⭐ CORRECT GitHub Pages URL + baseUrl
   url: "https://areebayaseen15.github.io",
-baseUrl: "/Physical_AI_Robotics-textbook",
+  baseUrl: "/Physical_AI_Robotics-textbook/",
   trailingSlash: false,
 
   onBrokenLinks: 'ignore',
-  markdown: {
-    mermaid: true,
-    hooks: {
-      onBrokenMarkdownLinks: 'warn',
-    },
-  },
+
   favicon: 'img/favicon.webp',
 
-  // GitHub pages deployment config
-  organizationName: 'claude-code-hackathon', // GitHub org/user
-  projectName: 'robotic-book', // Repo name
+  // ⭐ CORRECT GitHub repo settings
+  organizationName: 'areebayaseen15', 
+  projectName: 'Physical_AI_Robotics-textbook', 
 
   i18n: {
     defaultLocale: 'en',
@@ -32,17 +27,16 @@ baseUrl: "/Physical_AI_Robotics-textbook",
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/areebayaseen15/Ai-Humanoid-textbook/edit/main/',
+            'https://github.com/areebayaseen15/Physical_AI_Robotics-textbook/edit/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/areebayaseen15/Ai-Humanoid-textbook/edit/main/',
+            'https://github.com/areebayaseen15/Physical_AI_Robotics-textbook/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -51,9 +45,7 @@ baseUrl: "/Physical_AI_Robotics-textbook",
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  themeConfig: ({
       image: 'img/logo.webp',
       navbar: {
         title: 'Physical AI & Humanoid Robotics Textbook',
@@ -75,43 +67,7 @@ baseUrl: "/Physical_AI_Robotics-textbook",
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Introduction',
-                to: '/docs/Introduction/introduction',
-              },
-            ],
-          },
-          {
-            title: 'Social Profiles',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/areeba-yaseen-6523552b5/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://x.com/areebayaseen15',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/areebayaseen15',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook, All Rights Reserved.`,
-      },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
@@ -120,4 +76,3 @@ baseUrl: "/Physical_AI_Robotics-textbook",
 };
 
 export default config;
-
